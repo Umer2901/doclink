@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCE1HwGExe4xdgvGN-jJxF2uPOqFqC1LW8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>860545872343</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ultrasol.doclink.RunnerTests</string>
+	<key>PROJECT_ID</key>
+	<string>doclink-ea836</string>
+	<key>STORAGE_BUCKET</key>
+	<string>doclink-ea836.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:860545872343:ios:b95620ce9676e85e811b92</string>
+	<key>DATABASE_URL</key>
+	<string>https://doclink-ea836-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
