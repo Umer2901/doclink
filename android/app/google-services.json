@@ -8,13 +8,104 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:860545872343:android:68bd8210177fda88811b92",
+        "mobilesdk_app_id": "1:860545872343:android:7a967a2935cb12b1811b92",
+        "android_client_info": {
+          "package_name": "com.example.doclink"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDutZ2laFYUcp03Q8hWXNx_KhcJp5i7nwQ"
+        },
+        {
+          "current_key": "AIzaSyDhLmJ3CpTo_ZrYk0AJB7-3PlsunCkRE-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860545872343:android:3ed4e52182b4cb85811b92",
+        "android_client_info": {
+          "package_name": "com.retrytech.doclink"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDutZ2laFYUcp03Q8hWXNx_KhcJp5i7nwQ"
+        },
+        {
+          "current_key": "AIzaSyDhLmJ3CpTo_ZrYk0AJB7-3PlsunCkRE-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860545872343:android:54aeb327b852c965811b92",
+        "android_client_info": {
+          "package_name": "com.softthrive.doclink"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDutZ2laFYUcp03Q8hWXNx_KhcJp5i7nwQ"
+        },
+        {
+          "current_key": "AIzaSyDhLmJ3CpTo_ZrYk0AJB7-3PlsunCkRE-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860545872343:android:10075d62edc7c101811b92",
+        "android_client_info": {
+          "package_name": "com.thrive.doclink"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDutZ2laFYUcp03Q8hWXNx_KhcJp5i7nwQ"
+        },
+        {
+          "current_key": "AIzaSyDhLmJ3CpTo_ZrYk0AJB7-3PlsunCkRE-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860545872343:android:d9dd8d96b264b8db811b92",
         "android_client_info": {
           "package_name": "com.ultrasol.doclink"
         }
       },
       "oauth_client": [],
       "api_key": [
+        {
+          "current_key": "AIzaSyDutZ2laFYUcp03Q8hWXNx_KhcJp5i7nwQ"
+        },
         {
           "current_key": "AIzaSyDhLmJ3CpTo_ZrYk0AJB7-3PlsunCkRE-o"
         }

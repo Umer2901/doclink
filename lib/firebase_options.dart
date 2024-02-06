@@ -55,8 +55,8 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDhLmJ3CpTo_ZrYk0AJB7-3PlsunCkRE-o',
-    appId: '1:860545872343:android:68bd8210177fda88811b92',
+    apiKey: 'AIzaSyDutZ2laFYUcp03Q8hWXNx_KhcJp5i7nwQ',
+    appId: '1:860545872343:android:d9dd8d96b264b8db811b92',
     messagingSenderId: '860545872343',
     projectId: 'doclink-ea836',
     databaseURL: 'https://doclink-ea836-default-rtdb.firebaseio.com',
@@ -65,7 +65,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyAIuBG1REb-Ty7XgJdzg6sYVM41mgq7AOE',
-    appId: '1:860545872343:ios:54dbd16715e6e922811b92',
+    appId: '1:860545872343:ios:57d57d7dea37f3ad811b92',
     messagingSenderId: '860545872343',
     projectId: 'doclink-ea836',
     databaseURL: 'https://doclink-ea836-default-rtdb.firebaseio.com',
@@ -75,7 +75,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyAIuBG1REb-Ty7XgJdzg6sYVM41mgq7AOE',
-    appId: '1:860545872343:ios:ce6ef0c1ca1832e9811b92',
+    appId: '1:860545872343:ios:08258f895d5a27d8811b92',
     messagingSenderId: '860545872343',
     projectId: 'doclink-ea836',
     databaseURL: 'https://doclink-ea836-default-rtdb.firebaseio.com',
