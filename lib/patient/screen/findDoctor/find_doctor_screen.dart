@@ -275,29 +275,37 @@ class _findDoctorState extends State<findDoctor> {
                                       itemBuilder: (context, index) {
                                         print(controller.categories?.length);
                                         return SizedBox(
-                                          child: ElevatedButton(
-                                          onPressed: () {
-                                            controller.selectCategory(index);
-                                            print(index);
-                                          },
-                                          style: ElevatedButton.styleFrom(
-                                              shape: RoundedRectangleBorder(
-                                                borderRadius: BorderRadius.circular(20),
-                                                side: BorderSide(
-                                                  color: controller.index == index ? Colors.transparent :Colors.grey, // Border color when selected or unselected
-                                                ),
-                                              ),
-                                              backgroundColor:
-                                         controller.index == index ? ColorRes.havelockBlue : Colors.transparent, elevation: 0 // Background color when selected or unselected
-                                          ),
-                                          child: Text(
-                                            controller.categories![index].title.toString(),
-                                            style: TextStyle(
-                                              fontSize: 10,
-                                              color:  controller.index == index ? ColorRes.white :Colors.grey, // Text color when selected or unselected
-                                            ),
-                                          ),
-                                        ),
+                                          child:ElevatedButton(
+  onPressed: () {
+    controller.selectCategory(index);
+    print(index);
+  },
+  style: ElevatedButton.styleFrom(
+    shape: RoundedRectangleBorder(
+      borderRadius: BorderRadius.circular(20),
+      side: BorderSide(
+        color: controller.index == index ? Colors.transparent : Colors.grey,
+      ),
+    ),
+    backgroundColor: controller.index == index ? ColorRes.havelockBlue : Colors.transparent,
+    elevation: 0,
+  ),
+  child: LayoutBuilder(
+    builder: (context, constraints) {
+      return FittedBox(
+        fit: BoxFit.scaleDown,
+        child: Text(
+          controller.categories![index].title.toString(),
+          style: TextStyle(
+            fontSize: constraints.maxWidth > 150 ? 14 : 14, // Adjust font size based on available space
+            color: controller.index == index ? ColorRes.white : Colors.grey,
+          ),
+        ),
+      );
+    },
+  ),
+),
+
                                         );
                                       },
                                       );
@@ -312,7 +320,7 @@ class _findDoctorState extends State<findDoctor> {
                                         child: Padding(
                                           padding: const EdgeInsets.only(left: 8.0),
                                           child: Text(
-                                            'Payment will be detucted after call.',
+                                            'Payment will be deducted after call.',
                                             style: TextStyle(
                                               fontSize: 14,
                                               color: ColorRes.havelockBlue,
